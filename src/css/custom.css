@@ -43,6 +43,12 @@ a {
   font-size: 14px;
 }
 
+.mdxCodeBlock_1XEh,
+.mdxCodeBlock_node_modules-\@docusaurus-theme-classic-lib-theme-MDXComponents- {
+  margin-top: 20px;
+}
+
+.docSidebarContainer_3_JD,
 .docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage- {
   width: 250px!important;
 }
@@ -96,17 +102,21 @@ code {
   font-size: 12.8px;
 }
 
+.prism-code.codeBlock_3iAC,
 .prism-code.codeBlock_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock- {
   outline: none;
   border-radius: 3px!important;
 }
+.codeBlockLines_b7E3,
 .codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock- {
   font-size: 13px!important;
   padding: 28px!important;
 }
+.codeBlockLines_b7E3,
 .codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock- span {
   line-height: 24px!important;
 }
+.codeBlockLines_b7E3,
 .codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock- * {
   font-style: normal!important;
 }
@@ -180,19 +190,28 @@ html[data-theme="light"] code {
   color: #e96900!important;
 }
 
+html[data-theme="light"] .codeBlockLines_b7E3,
 html[data-theme="light"] .codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock- {
   background: #f8f8f8!important;
 }
+html[data-theme="light"] .codeBlockLines_b7E3 .token.plain,
 html[data-theme="light"] .codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock- .token.plain {
   color: #2973b7;
 }
+html[data-theme="light"] .codeBlockLines_b7E3 .token.string,
 html[data-theme="light"] .codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock- .token.string {
   color: #42b983!important;
 }
+html[data-theme="light"] .codeBlockLines_b7E3 .token.function,
+html[data-theme="light"] .codeBlockLines_b7E3 .token.keyword,
 html[data-theme="light"] .codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock- .token.function,
 html[data-theme="light"] .codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock- .token.keyword {
   color: #e96900!important;
 }
+html[data-theme="light"] .codeBlockLines_b7E3 .token.operator,
+html[data-theme="light"] .codeBlockLines_b7E3 .token.property-access,
+html[data-theme="light"] .codeBlockLines_b7E3 .token.maybe-class-name,
+html[data-theme="light"] .codeBlockLines_b7E3 .token.class-name,
 html[data-theme="light"] .codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock- .token.operator,
 html[data-theme="light"] .codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock- .token.property-access,
 html[data-theme="light"] .codeBlockLines_node_modules-\@docusaurus-theme-classic-lib-theme-CodeBlock- .token.maybe-class-name,

@@ -88,7 +88,7 @@ module.exports = {
       },
     ],
   ],
-  scripts: [
-    'http://localhost:3000/src/js/custom.js'
-  ]
+  // scripts: [
+  //   '../src/js/custom.js'
+  // ]
 };

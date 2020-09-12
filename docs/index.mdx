@@ -38,9 +38,11 @@ You can support the development of vermillion via the following methods:
 
 #### One-time donation
 
+import paypalImg from './assets/paypal.png';
+
 export const Image = ({children, color}) => (
     <a href="https://www.paypal.com/paypalme/dariusbualan" target="_blank">
-        <img src="assets/paypal.png" alt="Paypal" style={{ width: '200px' }} />
+        <img src={paypalImg} alt="Paypal" style={{ width: '200px' }} />
     </a>
 );
 
