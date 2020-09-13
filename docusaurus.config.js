@@ -45,11 +45,11 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com',
+              href: 'https://stackoverflow.com/questions/tagged/vermillion',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com',
+              href: 'https://discord.com/invite/vermillion',
             },
             {
               label: 'Twitter',
