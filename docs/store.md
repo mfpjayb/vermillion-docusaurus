@@ -15,7 +15,8 @@ Store needs to be registered in a module before we can use it.
 Here's an example on how to register the store in a module:
 
 ```javascript
-import { Module, Store } from 'vermillion';
+import { Module } from 'vermillion';
+import Store from 'vermillion-store';
 
 const module = new Module({
     ...

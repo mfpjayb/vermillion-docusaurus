@@ -47,7 +47,8 @@ Including a plugin in a module must be called first before the module is mounted
 Here's an example on how to use a plugin:
 
 ```javascript
-import { Module, Store } from 'vermillion';
+import { Module } from 'vermillion';
+import Store from 'vermillion-store';
 import App from './App';
 
 const module = new Module({

@@ -268,7 +268,8 @@ import { Directive } from 'vermillion';
 
 export default class Color extends Directive {
     constructor(props) {
-        super(props); // super with props argument is required in a constructor
+        // props argument in super is required if constructor is present
+        super(props);
     }
 
     $onInit() {

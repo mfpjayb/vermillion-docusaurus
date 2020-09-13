@@ -15,7 +15,8 @@ Router must be registered as a plugin to the module first before we can use it.
 Here's an example on how to register the router:
 
 ```javascript
-import { Module, Router } from 'vermillion';
+import { Module } from 'vermillion';
+import Router from 'vermillion-router';
 
 const routes = [];              // <------ list of routes
 
@@ -38,15 +39,21 @@ A route is just a javascript object that contains two required properties, `path
 | component     | Class     | The component that will be rendered in the `<app-router-outlet />` when route path matches the browser url pathname. |
 | exact         | Boolean   | If the values is true, then the Component will only activate if route path is an exact match with the browser url pathname but still respect the dynamic route matching. |
 | middleware    | Array     | It is another layer of checking if the component can activate or not. |
+| children      | Array     | An Array of child routes. |
 
 Here's an example on how to create routes
 
 ```javascript
-import { Module, Router } from 'vermillion';
+import { Module } from 'vermillion';
+import Router from 'vermillion-router';
 import SampleComponent from './SampleComponent';
 
 const routes = [                // <------ list of routes
-    { path: '/sample-route', component: SampleComponent }
+    {
+        path: '/sample-route', component: SampleComponent, children: [
+            { path: '/sample-route/child-route', component: ChildRouteComponent }
+        ]
+    }
 ];
 
 const module = new Module({

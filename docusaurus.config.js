@@ -45,25 +45,21 @@ module.exports = {
           items: [
             {
               label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              href: 'https://stackoverflow.com',
             },
             {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discordapp.com',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com',
             },
           ],
         },
         {
           title: 'More',
           items: [
-            {
-              label: 'Blog',
-              to: 'docs',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/mfpjayb/vermillion',
@@ -88,7 +84,7 @@ module.exports = {
       },
     ],
   ],
-  // scripts: [
-  //   '../src/js/custom.js'
-  // ]
+  scripts: [
+    '../js/custom.js'
+  ]
 };

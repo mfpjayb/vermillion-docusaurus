@@ -5,7 +5,7 @@
  * work well for content-centric websites.
  */
 
- @import "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap";
 
 /* You can override the default Infima variables here. */
 
@@ -155,6 +155,32 @@ ul li {
 .footer.footer--dark a {
   font-size: 13px;
 }
+.hero.hero--primary {
+  padding: 140px 0;
+}
+.hero.hero--primary .hero__title {
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-size: 50px!important;
+}
+.hero.hero--primary .hero__subtitle {
+  font-size: 1.2rem;
+}
+.hero.hero--primary .button {
+  margin-top: 20px;
+  font-weight: 300;
+  border-radius: 100px;
+}
+
+.features_src-pages- h3 {
+  font-weight: 400;
+}
+.features_src-pages- p {
+  font-weight: 300;
+}
+.features_src-pages- {
+  padding: 70px 0 100px 0!important;
+}
 
 /* ===================================== */
 
@@ -237,3 +263,28 @@ html[data-theme="light"] .footer.footer--dark {
 html[data-theme="light"] .footer.footer--dark a {
   color: #42b983;
 }
+
+html[data-theme="light"] .hero.hero--primary {
+  background: white;
+  border-bottom: solid 1px #eceeef;
+}
+html[data-theme="light"] .hero.hero--primary .hero__title {
+  color: #273849;
+}
+html[data-theme="light"] .hero.hero--primary .hero__subtitle {
+  color: #273849;
+}
+html[data-theme="light"] .hero.hero--primary .button {
+  color: white!important;
+  background: #4fc08d;
+  border: 1px solid #4fc08d;
+}
+html[data-theme="light"] .hero.hero--primary .button:hover {
+  color: #4fc08d!important;
+  background: white;
+}
+
+
+
+
+
