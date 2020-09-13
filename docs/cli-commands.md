@@ -10,6 +10,7 @@ Here is a list of available commands for vermillion cli:
 | Command | Syntax | Description |
 | --- | --- | --- |
 | new | `vm new <project_name>` | Generate a new vermillion application. |
+| serve | `vm serve` | Serve the application locally for development. |
 | generate| `vm generate <type> <name>` | Generate a vermillion file based on the given type and name. See [generate types](/docs/cli-commands#generate-types) section for more info. |
 
 ## Generate types
