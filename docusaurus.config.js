@@ -2,11 +2,11 @@ module.exports = {
   title: 'Vermillion',
   tagline: 'Simple but powerful javascript framework',
   url: 'https://vermillionjs.com',
-  baseUrl: '/',
+  baseUrl: '/vermillion-docusaurus/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
   organizationName: 'mfpjayb',
-  projectName: 'vermillion',
+  projectName: 'vermillion-docusaurus',
   themeConfig: {
     navbar: {
       title: 'Vermillion',
@@ -76,7 +76,7 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/mfpjayb/vermillion-docusaurus',
+          editUrl: 'https://github.com/mfpjayb/vermillion-docusaurus/blob/master',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -85,6 +85,6 @@ module.exports = {
     ],
   ],
   scripts: [
-    '../js/custom.js'
+    'js/custom.js'
   ]
 };
