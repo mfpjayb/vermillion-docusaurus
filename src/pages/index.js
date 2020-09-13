@@ -52,6 +52,20 @@ function Feature({imageUrl, title, description}) {
   );
 }
 
+function Sponsors() {
+  return (
+    <section className={styles.features} style={{borderTop: 'solid 1px #eceeef'}}>
+      <div className="container">
+        <h3 style={{textAlign: 'center', color: '#1c1e21cc'}}>Patreon Sponsors</h3>
+        <h3 style={{textAlign: 'center', color: '#ccc'}}>. . .</h3>
+        <div style={{textAlign: 'center'}}>
+          <button class="button button--outline button--secondary sponsor-link-btn">Become a sponsor</button>
+        </div>
+      </div>
+    </section>
+  )
+}
+
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
@@ -87,6 +101,7 @@ function Home() {
             </div>
           </section>
         )}
+        <Sponsors />
       </main>
     </Layout>
   );
